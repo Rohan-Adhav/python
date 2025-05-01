@@ -1,7 +1,7 @@
 import openai
 import time
 
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY"
 
 def BasicGeneration(userPrompt):
     prompt = f"You are a helpful assistant.\nUser: {userPrompt}"
